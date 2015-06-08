@@ -1,26 +1,5 @@
 ##author: Sushant Bajracharya(sussyoung9@gmail.com)
-##time taken:
-##MONTHS_IN_A_YEAR = 12
-##Balance = float(input("How much do you currently owe? "))
-##AnnualInterestRate = float(input("What is the annual interest rate? "))
-##MonthlyInterestRate = AnnualInterestRate / MONTHS_IN_A_YEAR
-##InterestPaid = round(MonthlyInterestRate * Balance, 2)
-##MinimumMonthlyPaymentRate = float(input("What is the minimum montly payment rate? "))
-##TotalPaid = 0
-##
-##for i in range(0, MONTHS_IN_A_YEAR): # + 1 to account for offset
-##    MinimumMonthlyPayment = round(MinimumMonthlyPaymentRate * Balance, 2)
-##    PrincipalPaid = round(MinimumMonthlyPayment - InterestPaid, 2)
-##    Balance = round(Balance - PrincipalPaid, 2)
-##    TotalPaid += round(MinimumMonthlyPayment, 2)
-##    print("Month: " + str(i + 1))
-##    print("Minimum monthly payment: $" + str('%.2f' % (MinimumMonthlyPayment)))
-##    print("Principle paid: $" + str('%.2f' % (PrincipalPaid)))
-##    print("Remaining balance: $" + str('%.2f' % (Balance)))
-##
-##print("RESULT")
-##print("Total amount paid: $" + str('%.2f' % (TotalPaid)))
-##print("Remaining balance: $" + str('%.2f' % (Balance)))
+##time taken:3hrs
 
 MONTHS = 12
 outstanding_balance = float(input("Enter the outstanding balance on your credit card: "))
