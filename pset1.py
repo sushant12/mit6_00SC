@@ -1,7 +1,6 @@
 ##author: Sushant Bajracharya(sussyoung9@gmail.com)
 ##time taken:3 hrs
 
-
 MONTHS = 12
 outstanding_balance = float(input("Enter the outstanding balance on your credit card: "))
 annual_interest_rate = float(input("Enter the annual credit card interest rate as a decimal: "))
