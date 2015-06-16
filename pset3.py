@@ -27,7 +27,6 @@ while e < abs(balance):
   monthly_payment = bisect(low,high)
   for month in range (1,13):
     balance = apply_min_payment(balance,monthly_payment)
-    print "Month " + str(month) + " balance is " + str(balance)
   if balance > 0:
     low = monthly_payment
   if balance < 0:
